@@ -11,4 +11,10 @@ I am using vite+react+threejs and I will describe all the setup and key points i
     "./src/**/*.{js,ts,jsx,tsx}",
   ],  Add this in the tailwind.config.js content section. Try to run hello world in h1 and copy it from the tailwind CSS command set inside App.js
 Create a new file called index.css and add the following snippet to it.
-After copying the snippet rerun the file you will see changes in the browser now in the tailwind.config.js paste the following snippet
+After copying the snippet rerun the file you will see changes in the browser now in the tailwind.config.js paste the following snippet.
+Then rerun the file and remove import react line from the app.jsx file then run again to check if everything is working properly. Try to change the color in h1 tag in the app.jsx and incase your ide doesn't recognise the color the install tailwind css extension. clear your terminal the run the npm run dev then follow local host link.
+Now we need to have a comprehensive routing in our system to do that open a seperate terminal and run npm install react-router-dom then we will have route component,browserouter components from react-router-dom use this:
+import {Route,BrowserRouter as Router,Routes} from 'react-router-dom';
+In the app.jsx remove the div and create a main container. inside it create a router container.
+The setup is done also in my code I have explained everything that I learnt.
+Please refer to that:)
